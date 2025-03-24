@@ -22,5 +22,4 @@ from news.views import main, info
 urlpatterns = [
     path('', main),
     path('info/', info),
-
 ]
